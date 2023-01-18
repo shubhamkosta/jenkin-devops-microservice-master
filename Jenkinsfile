@@ -1,7 +1,7 @@
 //DECLARATIVE
 pipeline {
     agent any
-    stages{
+    stages {
         stage ("Build") {
             steps {
                 echo "Build"
@@ -14,7 +14,7 @@ pipeline {
             }
         }
                             
-        stage ("Test") {
+        stage ("Integrtion") {
             steps {
                 echo "Test"
             }
